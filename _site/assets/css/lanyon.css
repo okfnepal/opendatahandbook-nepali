@@ -62,20 +62,22 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 1rem;
   margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
+  background: #61BC30;
 }
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #505050;
+  color: #fff;
 }
 .masthead-title a {
-  color: #505050;
+  color: #fff;
 }
 .masthead-title small {
-  font-size: 75%;
+  font-size:95%;
   font-weight: 400;
-  color: #c0c0c0;
+  color: #fff;
   letter-spacing: 0;
+
 }
 
 @media (max-width: 48em) {
@@ -152,6 +154,7 @@ a.sidebar-nav-item:focus {
   text-decoration: none;
   background-color: rgba(255,255,255,.1);
   border-color: transparent;
+  ba
 }
 
 @media (min-width: 48em) {
@@ -335,12 +338,18 @@ a.sidebar-nav-item:focus {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
+  
+}
+.pagination a{
+  color: color: #606060;;
+
 }
 
 /* Pagination items can be `span`s or `a`s */
 .pagination-item {
+  background-color: #333;
   display: block;
-  padding: 1rem;
+  padding: 0.2rem;
   border: 1px solid #eee;
 }
 .pagination-item:first-child {
@@ -349,7 +358,7 @@ a.sidebar-nav-item:focus {
 
 /* Only provide a hover state for linked pagination items */
 a.pagination-item:hover {
-  background-color: #f5f5f5;
+  background-color: red;
 }
 
 @media (min-width: 30em) {
@@ -510,7 +519,7 @@ a.pagination-item:hover {
 .theme-base-chhs .container a,
 .theme-base-chhs .sidebar-toggle,
 .theme-base-chhs .related-posts li a:hover {
-  color: #29A5DA;
+  color: #fff;
 }
 
 
@@ -536,4 +545,18 @@ a.pagination-item:hover {
 /* Only one tweak for a reverse layout */
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
+}
+footer{
+  padding: 40px;
+  background: #333;
+}
+svg{
+  fill: rgb(255, 255, 255);
+}
+footer .container{
+  color: #fff;
+}
+
+footer .container a{
+  color: #268bd2 !important;
 }
