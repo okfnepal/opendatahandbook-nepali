@@ -2,8 +2,8 @@
 title:               खुल्ला डाटा पुस्तिका
 tagline:             'Open Knowledge Nepal'
 description:         'खुल्ला डाटा पुस्तिका'
-url:                 https://okfnepal.github.io/opendatahandbook-nepali/
-baseurl:             'https://okfnepal.github.io/opendatahandbook-nepali/'
+url:                 http://okfnepal.github.io/opendatahandbook-nepali
+baseurl:             'https://okfnepal.github.io/opendatahandbook-nepali'
 paginate:            5
 
 # About/contact
